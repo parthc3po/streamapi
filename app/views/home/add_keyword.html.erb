@@ -1,0 +1,11 @@
+<% form_for :keyword do %>
+
+<h3>Enter Keyword</h3>
+
+  <%= text_field_tag :keyword %><br />
+
+  <%= submit_tag "Save" %>
+
+<% end %>
+
+<%= link_to "Cancle", root_path %>

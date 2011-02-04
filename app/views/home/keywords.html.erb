@@ -1,0 +1,19 @@
+<table>
+  <tr>
+    <th>Id</th>
+    <th>Keyword</th>
+  </tr>
+
+
+  <% for keyword in @keywords %>
+
+    <tr>
+      <td><%= keyword.id %></td>
+      <td><%= keyword.keyword %></td>
+    </tr>
+
+  <% end %>
+
+</table>
+
+<%= link_to "Home", root_path %>
